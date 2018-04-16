@@ -1,8 +1,9 @@
 ## Terraform sample
 ### 資料
++ [getting-started](https://www.terraform.io/intro/getting-started/install.html)
 + [TerraformによるGCP環境の管理](https://gist.github.com/MisaKondo/cb46b0ecd106e9c824a641b14954b8e1)
   + ちょっと古い
-+ [](https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform)
++ [managing-gcp-projects-with-terraform](https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform)
 
 
 

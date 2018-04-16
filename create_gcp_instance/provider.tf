@@ -11,10 +11,9 @@ provider "google" {
   region      = "${var.region}"
 }
 
-/* module "create_gcp_instance" { */
-/*   source  = "/create_gcp_instance" */
-/*   zone    = "${var.zone}" */
-/*   project = "${var.project}" */
-/*   region  = "${var.region}" */
-/* } */
-
+module "create_gcp_instance" {
+  source  = "module/create_gcp_instance"
+  zone    = "${var.zone}"
+  project = "${var.project}"
+  region  = "${var.region}"
+}
